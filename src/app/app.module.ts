@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {MatToolbarModule, MatCardModule, MatButtonModule} from '@angular/material'
+import {MatToolbarModule, MatCardModule, MatButtonModule, MatFormFieldModule, MatInputModule} from '@angular/material'
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { NgModule } from '@angular/core';
 
@@ -14,6 +14,8 @@ import { AppComponent } from './app.component';
     BrowserModule,
     BrowserAnimationsModule,
     MatToolbarModule,
+    MatFormFieldModule,
+    MatInputModule,
     MatCardModule,
     MatButtonModule,
     FlexLayoutModule
