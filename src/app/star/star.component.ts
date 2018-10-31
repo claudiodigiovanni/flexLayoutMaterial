@@ -40,8 +40,7 @@ export class StarComponent implements OnInit  {
     
   }
 
-
-
+  
 
 }
 

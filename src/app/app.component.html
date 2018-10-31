@@ -18,6 +18,12 @@
         
   </div>
 
+  <button mat-button (click)="test()">Action</button>
+
+  <app-second-example [formControl]="mycomponent"></app-second-example>
+
+  {{mycomponent.value | json}}
+
 
  <app-star rate=1 (currentRate)="getCurrentRate($event)"></app-star>
 
