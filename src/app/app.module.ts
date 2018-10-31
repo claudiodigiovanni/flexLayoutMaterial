@@ -6,12 +6,13 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { StarComponent } from './star/star.component';
+import { StarComponent,InnerComponent } from './star/star.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    StarComponent
+    StarComponent,
+    InnerComponent
   ],
   imports: [
     BrowserModule,

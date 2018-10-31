@@ -1,3 +1,16 @@
+<form [formGroup]="myform" fxLayout="row">
+ 
+  
+  <button mat-button color="primary" (click)="addStar()">Add Star</button>
+  
+  <div formArrayName="stars" *ngFor="let s of stars.controls; let i=index" >
+    <!-- The repeated alias template -->
+   
+    <div>
+      <app-inner-star  [formControlName]="i"></app-inner-star>
+    </div>
+   
+  </div>
 
+</form>
 
-<mat-icon class="mystar">star</mat-icon>

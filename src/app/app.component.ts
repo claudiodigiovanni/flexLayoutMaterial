@@ -11,20 +11,8 @@ export class AppComponent {
 
   constructor(private fb: FormBuilder) { }
 
-  myform:FormGroup;
-  
-  ngOnInit() {
-      this.myform = this.fb.group({
-        stars: this.fb.array([])
-      })
-  }
-
-  get stars() {
-    return this.myform.get('stars') as FormArray;
-  }
-
-  addStar(){
-    this.stars.push(this.fb.control(''))
+  getCurrentRate(val){
+    console.log(val);
     
   }
 

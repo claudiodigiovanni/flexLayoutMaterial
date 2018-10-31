@@ -19,21 +19,7 @@
   </div>
 
 
-  <form [formGroup]="myform" fxLayout="row">
- 
-  
-    <button mat-button color="primary" (click)="addStar()">Add Star</button>
-    
-    <div formArrayName="stars" *ngFor="let s of stars.controls; let i=index" >
-      <!-- The repeated alias template -->
-     
-      <div>
-        <app-star  [formControlName]="i"></app-star>
-      </div>
-     
-    </div>
-
-  </form>
+ <app-star rate=1 (currentRate)="getCurrentRate($event)"></app-star>
 
 
   <div fxLayout="row" fxLayout.xs="column">
