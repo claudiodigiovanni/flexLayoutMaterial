@@ -27,19 +27,5 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 ## Example
-<<<<<<< HEAD
 Bubble-up Event - click e custom events...
 https://angular-university.io/lesson/angular-component-outputs...
-=======
-
-Bubble-up Event - click e custom events... [https://angular-university.io/lesson/angular-component-outputs](https://angular-university.io/lesson/angular-component-outputs)
-
-> xxxx
-
-{% hint style="info" %}
-bbbbb
-{% endhint %}
-
-
-
->>>>>>> 5a7de67182235ebb64ebbd18b7aa7210a40081a4
