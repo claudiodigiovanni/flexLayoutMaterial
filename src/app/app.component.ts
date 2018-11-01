@@ -23,5 +23,11 @@ export class AppComponent {
     this.mycomponent.setValue('ciaoooone')
   }
 
+
+  call(){
+    console.log('........click on app....');
+    
+  }
+
   
 }

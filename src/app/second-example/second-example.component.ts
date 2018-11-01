@@ -6,7 +6,7 @@ import { getQueryValue } from '@angular/core/src/view/query';
 @Component({
   selector: 'app-second-example',
   template: `
-    <mat-icon >book</mat-icon>
+    <mat-icon (click)="call()">book</mat-icon>
   ` ,
   styleUrls: ['./second-example.component.css'],
 
@@ -33,6 +33,12 @@ export class SecondExampleComponent implements ControlValueAccessor, OnInit  {
    setValue(value){
     this.value = value;
   } */
+
+
+  //Bubble up event.....
+  call(){
+    console.log('click 1')
+  }
 
   constructor(){}
 

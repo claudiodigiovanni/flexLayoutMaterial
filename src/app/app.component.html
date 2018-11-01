@@ -20,7 +20,7 @@
 
   <button mat-button (click)="test()">Action</button>
 
-  <app-second-example [formControl]="mycomponent"></app-second-example>
+  <app-second-example [formControl]="mycomponent" (click)="call()"></app-second-example>
 
   {{mycomponent.value | json}}
 
